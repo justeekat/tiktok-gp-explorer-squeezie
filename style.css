@@ -3,8 +3,11 @@
 }
 
 body {
+  font-family: "Inter", sans-serif;
+  color: white;
   background-color: #000000;
-  padding: 30px;
+  display: flex;
+  min-height: 100vh;
 }
 
 button {
@@ -19,10 +22,101 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 8px;
 }
 
 input {
   background-color: #212121;
   border: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 15%;
+  padding: 24px;
+  margin-right: 100px;
+}
+
+.header-part {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.log-in {
+  background: #ff3b5c;
+  border-radius: 8px;
+  width: 100%;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #7e7e7e;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.barre {
+  background-color: #757575;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.duree {
+  background-color: #ff3b5c;
+  width: 55%;
+  color: #000000;
+  border-bottom-left-radius: 12px;
+  height: 5px;
+}
+
+.video-bottom {
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 12px;
+}
+
+.desc {
+  color: #a6a6a6;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.squeezie {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.video {
+  background-color: #111111;
+  height: calc(100vh - 32px);
+  aspect-ratio: 9 / 16;
+  flex-shrink: 0;
+  align-self: center;
+  margin: 0 auto 0 40px; /* ✅ MODIFIÉ : collée à gauche, à 40px du menu */
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
