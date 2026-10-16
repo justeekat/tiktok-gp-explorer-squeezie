@@ -106,7 +106,6 @@ header {
   aspect-ratio: 9 / 16;
   flex-shrink: 0;
   align-self: center;
-  margin: 0 auto 0 40px; /* ✅ MODIFIÉ : collée à gauche, à 40px du menu */
   border-radius: 12px;
   overflow: hidden;
   position: relative;
@@ -119,4 +118,158 @@ header {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.pdp {
+  border-radius: 50%;
+}
+
+.song {
+  border-radius: 50%;
+}
+
+.interactions {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #aeaeae;
+}
+
+.like {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.favoris {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.commentaire-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.favoris-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.share-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.get-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  border-radius: 99px;
+  padding: 10px;
+  gap: 8px;
+  height: 15%;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.get-coins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  border-radius: 99px;
+  padding: 10px;
+  gap: 8px;
+  height: 15%;
+  margin: 10px;
+  margin-right: 0;
+}
+
+.top-right {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  height: 20%;
+}
+
+.right {
+  width: 45%;
+  min-height: 100vh;
+}
+
+.chevron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  height: 80%;
+}
+
+.chevron-style {
+  background-color: #212121;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.chevron-margin {
+  margin-bottom: 150px;
+}
+
+.for-you {
+  color: #ff3b5c;
 }
